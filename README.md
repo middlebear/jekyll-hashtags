@@ -47,6 +47,26 @@ In any page or post, use #hashtags as you would normally, e.g.
 
 > Hey <a href="/tags/AmazonGo" target="_blank" class="hashtag">#AmazonGo</a>, what do you think?
 
+## Configuration
+
+Have your own social network? No problem. We allow you to configure the base URL of all the hashtags.
+
+To change it, add the following to your Jekyll configuration:
+
+```yml
+jekyll-hashtags:
+  base_url: https://hengwei.me
+```
+
+An example of Twitter hashtags using jekyll-hashtags:
+
+```yml
+plugins:
+  - jekyll-hashtags
+
+jekyll-hashtags:
+  base_url: https://twitter.com/hashtag/
+```
 
 ## Development
 
